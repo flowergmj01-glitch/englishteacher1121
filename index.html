@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文老師日語口說補帖（B1 / B2 職場轉譯實戰講義）</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .level-badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 9999px;
+            font-size: 0.72rem;
+            font-weight: bold;
+            color: white;
+            margin-right: 0.45rem;
+            vertical-align: middle;
+            letter-spacing: 0.02em;
+        }
+        .badge-b1 { background-color: #34d399; } /* Emerald Green */
+        .badge-b1-b2 { background-color: #3b82f6; } /* Blue */
+        .badge-b2 { background-color: #f59e0b; } /* Amber Orange */
+
+        /* 列印與匯出 PDF 最佳化樣式 */
+        @media print {
+            body {
+                background-color: #ffffff;
+                padding: 0;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .shadow-lg, .shadow-md, .shadow-sm {
+                box-shadow: none !important;
+            }
+            .avoid-break {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+            .card-border {
+                border: 1px solid #e5e7eb !important;
+            }
+            .max-w-4xl {
+                max-width: 100% !important;
+                padding: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-6 md:p-10">
+        <!-- 頂部列印按鈕（列印時自動隱藏） -->
+        <div class="flex justify-end mb-4 no-print">
+            <button onclick="window.print()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg shadow transition flex items-center gap-2 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                </svg>
+                列印 / 另存為 PDF
+            </button>
+        </div>
+
+        <h1 class="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-6 border-b-2 border-indigo-500 pb-4">
+            英文老師日語口說補帖
+        </h1>
+
+        <!-- 核心策略導言 -->
+        <section class="mb-10 avoid-break">
+            <div class="bg-indigo-50 p-6 rounded-xl border border-indigo-200">
+                <h2 class="text-lg font-bold text-indigo-800 mb-3 flex items-center gap-2">
+                    <span class="bg-indigo-600 text-white text-xs px-2.5 py-1 rounded-full">核心攻略</span>
+                    補習班講師的「角色轉譯」口說心法
+                </h2>
+                <p class="text-gray-800 leading-relaxed mb-4">
+                    針對一般上班族設計的職場口說題目，補習班英文老師在作答時最關鍵的策略是<strong>「角色轉譯」</strong>：
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 shadow-sm">
+                        <div class="text-xs font-bold text-indigo-600 mb-1">家長與學生</div>
+                        <div class="font-bold text-gray-800">➔ 客戶（顧客・保護者）</div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 shadow-sm">
+                        <div class="text-xs font-bold text-indigo-600 mb-1">行政人員與其他講師</div>
+                        <div class="font-bold text-gray-800">➔ 跨部門同事（他部署・同僚）</div>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 shadow-sm">
+                        <div class="text-xs font-bold text-indigo-600 mb-1">成績進步與留班率</div>
+                        <div class="font-bold text-gray-800">➔ 專案成果與 KPI（成果・目標）</div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-700 leading-relaxed bg-white/70 p-3 rounded-lg border border-indigo-100">
+                    這樣就能無縫套用所有團隊合作與危機處理的考題。以下內容皆以<strong>口說自然度</strong>為前提設計，避開過長且不易唸出的修飾句，並以 <strong>B2 程度為主軸、搭配 B1 基礎架構</strong>，方便直接作為實戰講義使用。
+                </p>
+            </div>
+        </section>
+
+        <hr class="my-8 border-gray-300">
+
+        <!-- ==================== 一、職業自我介紹核心句型 ==================== -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">一、職業自我介紹核心句型（B1～B2）</h2>
+
+            <!-- 1. 基本職務與背景定位 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-indigo-700 mb-3 border-l-4 border-indigo-500 pl-3">1. 基本職務與背景定位（開場用）</h3>
+                <div class="space-y-3">
+                    <div class="p-3.5 bg-emerald-50 rounded-lg border border-emerald-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b1">B1</span> 私は現在、学習塾で英語講師として働いています。主に〇〇を対象に指導しています。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（我目前在補習班擔任英文講師，主要指導〇〇。）</div>
+                    </div>
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 学習塾で英語の指導に携（たずさ）わって〇〇年になります。単（たん）に知識を教えるだけでなく、学習意欲を引き出すことを重視しています。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（我在補習班從事英文教學工作已經〇〇年了。不只是單純傳授知識，更重視引發學生的學習意願。）</div>
+                    </div>
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 私の主な業務は、授業の実施（じっし）をはじめ、教材の作成や生徒の進捗（しんちょく）管理など多岐（たき）にわたります。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（我的主要業務非常多元，除了授課之外，還包含教材製作與學生的學習進度管理。）</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. 強調「團隊協調與跨角色合作」 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-indigo-700 mb-3 border-l-4 border-indigo-500 pl-3">2. 強調「團隊協調與跨角色合作」（對應一般上班族題型）</h3>
+                <div class="space-y-3">
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 授業は一人で行いますが、実際には事務スタッフや他の講師と密（みつ）に連携（れんけい）しながら業務を進めています。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（雖然授課是由我一個人進行，但實際上工作都是與行政人員和其他講師密切合作推進的。）</div>
+                    </div>
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 講師同士（どうし）で生徒の状況をこまめに共有し、チーム全体でサポート体制を整えるようにしています。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（講師之間會頻繁共享學生的狀況，致力於以整個團隊的力量建立支援體制。）</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. 強調「溝通力與解決困難」 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-indigo-700 mb-3 border-l-4 border-indigo-500 pl-3">3. 強調「溝通力與解決困難」（鋪陳抗壓與應變能力）</h3>
+                <div class="space-y-3">
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 生徒一人ひとりの性格や理解度が異なるため、相手に合わせて指導法を柔軟（じゅうなん）に変える力が求められます。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（因為每位學生的性格和理解程度不同，這份工作需要能依對象靈活調整教學方式的能力。）</div>
+                    </div>
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 保護者の方からのご要望や厳しいご意見をいただくこともありますが、冷静に受け止め、信頼関係を築くことを心がけています。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（有時也會收到家長的要求或嚴厲的意見，但我會冷靜接受，並留心建立彼此的信賴關係。）</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. 表達工作價值與成就感 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-indigo-700 mb-3 border-l-4 border-indigo-500 pl-3">4. 表達工作價值與成就感（結尾收斂）</h3>
+                <div class="space-y-3">
+                    <div class="p-3.5 bg-emerald-50 rounded-lg border border-emerald-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b1">B1</span> 生徒が英語を好きになってくれたとき、一番やりがいを感じます。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（當學生變得喜歡英文時，我最有成就感。）</div>
+                    </div>
+                    <div class="p-3.5 bg-amber-50 rounded-lg border border-amber-100">
+                        <div class="text-gray-900 font-medium leading-relaxed">
+                            <span class="level-badge badge-b2">B2</span> 苦手意識（にがていしき）を持っていた生徒が自信をつけていく姿を間近（まぢか）で見守れることが、この仕事の最大の魅力（みりょく）です。
+                        </div>
+                        <div class="text-sm text-gray-600 mt-1 pl-1">（能夠近距離看著原本對英文有排斥感的學生逐漸建立自信，是這份工作最大的魅力。）</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 border-gray-300">
+
+        <!-- ==================== 二、必備核心單字 ==================== -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">二、必備核心單字（含例句與相關詞彙補充）</h2>
+
+            <!-- A. 教學與補習班專業詞彙 -->
+            <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">A. 教學與補習班專業詞彙</h3>
+            <div class="space-y-4 mb-8">
+                <!-- A1 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b1">B1</span> 1. 指導（しどう）する ｜ 指導、教學 <span class="text-xs font-normal text-gray-500">（比 教える 更具專業職場感）</span>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：中学生から高校生まで、幅広いレベルの生徒を指導しています。</p>
+                        <p class="text-gray-600 pl-4">（從國中生到高中生，我指導各種程度的學生。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：学習指導（課業指導）、個別指導（一對一/個別指導）、指導方針（教學方針）、講師（こうし｜補習班講師）</p>
+                    </div>
+                </div>
+
+                <!-- A2 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 2. 定着（ていちゃく）させる ｜ 使（知識）扎根、內化吸收
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：単語をただ暗記させるのではなく、会話の中で使って定着させる工夫（くふう）をしています。</p>
+                        <p class="text-gray-600 pl-4">（我不是讓學生死背單字，而是想辦法讓他們在會話中使用，藉此真正吸收。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：身につける（掌握、學會）、応用力（おうようりょく｜應用能力）、復習（ふくしゅう｜複習）</p>
+                    </div>
+                </div>
+
+                <!-- A3 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 3. 意欲（いよく）を引（ひ）き出（だ）す ｜ 引發意願／動力
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：成績を上げるためには、まず生徒自身の学ぶ意欲を引き出すことが不可欠（ふかけつ）です。</p>
+                        <p class="text-gray-600 pl-4">（為了提升成績，首先引發學生自身的學習意願是不可或缺的。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：モチベーション（動力）、自主性（じしゅせい｜自主性）、やる気（幹勁）</p>
+                    </div>
+                </div>
+
+                <!-- A4 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 4. 進捗（しんちょく）管理（かんり） ｜ 進度管理 <span class="text-xs font-normal text-gray-500">（一般企業極常用的高分詞）</span>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：試験本番に向けて、一人ひとりの進捗管理を徹底（てってい）しています。</p>
+                        <p class="text-gray-600 pl-4">（為了迎接正式考試，我徹底執行每位學生的進度管理。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：カリキュラム（課程規劃）、スケジュール調整（行程調整）、目標達成（目標達成）</p>
+                    </div>
+                </div>
+
+                <!-- A5 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 5. 個別（こべつ）対応（たいおう） ｜ 個別應對、客製化處理
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：集団授業であっても、質問しやすい雰囲気を作り、できる限り個別対応を心がけています。</p>
+                        <p class="text-gray-600 pl-4">（即使是團體班，我也會營造容易發問的氛圍，盡可能做到個別關照。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：集団（しゅうだん）授業（團體課）、きめ細かいサポート（細緻的支援）、配慮（はいりょ｜體貼、考量）</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- B. 團隊協作與職場溝通詞彙 -->
+            <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">B. 團隊協作與職場溝通詞彙（應對一般上班族考題）</h3>
+            <div class="space-y-4 mb-8">
+                <!-- B1 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 1. 連携（れんけい）する ｜ 合作、連動、協作
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：保護者の対応では、担任講師と教室長がうまく連携することが重要です。</p>
+                        <p class="text-gray-600 pl-4">（在應對家長時，班導講師與分校主任的良好配合非常重要。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：協力体制（きょうりょくたいせい｜合作體制）、チームワーク（團隊合作）、役割分担（やくわりぶんたん｜分工）</p>
+                    </div>
+                </div>
+
+                <!-- B2 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b1-b2">B1-B2</span> 2. 情報共有（じょうほうきょうゆう） ｜ 資訊共享
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：引き継ぎのミスを防ぐため、日頃からこまめな情報共有を意識しています。</p>
+                        <p class="text-gray-600 pl-4">（為了防止交接失誤，我平時就很有意識地頻繁共享資訊。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：引き継ぎ（ひきつぎ｜工作交接）、報連相（ほうれんそう｜報告、聯絡、商量）、認識のズレ（認知落差）</p>
+                    </div>
+                </div>
+
+                <!-- B3 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 3. 円滑（えんかつ）に進（すす）める ｜ 順利推進（業務、溝通）
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：相手の立場を考えて発言することで、職場のコミュニケーションを円滑に進めています。</p>
+                        <p class="text-gray-600 pl-4">（站在對方立場發言，讓職場溝通得以順利進行。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：スムーズに（順暢地）、風通し（かざとおし）が良い（職場氣氛開放、溝通無礙）、調整役（ちょうせいやく｜協調者）</p>
+                    </div>
+                </div>
+
+                <!-- B4 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 4. クレーム対応（たいおう） ｜ 客訴處理
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：クレーム対応の際は、まず相手の話を最後まで遮（さえぎ）らずに聞くようにしています。</p>
+                        <p class="text-gray-600 pl-4">（處理客訴時，我首先會不打斷對方，把話聽到最後。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：苦情（くじょう｜抱怨）、要望（ようぼう｜要求）、誠実（せいじつ）に（誠懇地）、迅速（じんそく）に（迅速地）</p>
+                    </div>
+                </div>
+
+                <!-- B5 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 5. 信頼関係（しんらいかんけい）を築（きず）く ｜ 建立信賴關係
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：小さな約束でも必ず守ることで、保護者や同僚との信頼関係を築いてきました。</p>
+                        <p class="text-gray-600 pl-4">（即使是小小的約定也必定遵守，藉此與家長及同事建立起信賴關係。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：信用（しんよう｜信用）、安心感を与える（給予安心感）、納得（なっとく）してもらう（讓對方認同接受）</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- C. 面對負面情緒、壓力與困難詞彙 -->
+            <h3 class="text-lg font-bold text-indigo-700 mb-4 border-l-4 border-indigo-500 pl-3">C. 面對負面情緒、壓力與困難詞彙</h3>
+            <div class="space-y-4">
+                <!-- C1 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b1-b2">B1-B2</span> 1. 課題（かだい） ｜ 課題、待解決的問題 <span class="text-xs font-normal text-gray-500">（比 問題 更具建設性）</span>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：生徒の点数が伸び悩んだときは、感情的にならず、何が課題なのかを分析します。</p>
+                        <p class="text-gray-600 pl-4">（當學生成績停滯不前時，我不會情緒化，而是分析問題點在哪裡。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：問題点（もんだいてん）、改善策（かいぜんさく｜改善方案）、原因究明（げんいんきゅうめい｜查明原因）</p>
+                    </div>
+                </div>
+
+                <!-- C2 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 2. 柔軟（じゅうなん）に対応（たいおう）する ｜ 靈活應對
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：急なスケジュール変更があっても、慌（あわ）てず柔軟に対応できるよう心がけています。</p>
+                        <p class="text-gray-600 pl-4">（即使遇到臨時的行程更動，我也留心不慌張並靈活應對。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：臨機応変（りんきおうへん｜隨機應變）、想定外（そうていがい｜意料之外）、切り替える（轉換心境／做法）</p>
+                    </div>
+                </div>
+
+                <!-- C3 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 3. 冷静（れいせい）に受（う）け止（と）める ｜ 冷靜接受（批評、事實）
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：厳しい指摘（してき）を受けたときも、まずは冷静に受け止めて、改善につなげます。</p>
+                        <p class="text-gray-600 pl-4">（即使受到嚴厲的指正，我首先也會冷靜接受，並將其轉化為改善的動力。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：客観的（きゃっかんてき｜客觀的）、批判（ひはん｜批評）、フィードバック（回饋）</p>
+                    </div>
+                </div>
+
+                <!-- C4 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b2">B2</span> 4. 前向（まえむ）きに捉（とら）える ｜ 正面看待、正向解讀
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：失敗をマイナスに考えるのではなく、成長の機会として前向きに捉えるようにしています。</p>
+                        <p class="text-gray-600 pl-4">（我不會把失敗看作負面的事，而是當成成長的機會，正向看待。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：糧（かて）にする（化為養分）、教訓（きょうくん｜教訓）、メンタルケア（心理調適）</p>
+                    </div>
+                </div>
+
+                <!-- C5 -->
+                <div class="avoid-break card-border bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                    <div class="font-bold text-gray-900 text-base mb-1.5">
+                        <span class="level-badge badge-b1-b2">B1-B2</span> 5. 乗（の）り越（こ）える ｜ 克服、度過（難關）
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-lg text-sm space-y-1">
+                        <p class="text-gray-800 font-medium">・例句：一人で抱え込まずに上司へ相談したことで、大きなプレッシャーを乗り越えることができました。</p>
+                        <p class="text-gray-600 pl-4">（因為沒有獨自承擔而是向上司商量，我才得以度過巨大的壓力。）</p>
+                        <p class="text-indigo-700 pt-1">・相關補充：抱（かか）え込（こ）む（獨自悶著承擔）、克服（こくふく）する（克服）、打開（だかい）する（打破僵局）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 border-gray-300">
+
+        <!-- ==================== 三、職業與職場高分日文片語・慣用表現 ==================== -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">三、職業與職場高分日文片語・慣用表現（B2 核心）</h2>
+            <p class="text-center text-sm text-gray-600 mb-6">這類表現能讓考官立刻聽出你的語感已超越 A2/B1，進入 B2 的精準表達層級。</p>
+
+            <!-- 1. 教學與人際引導類 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-amber-700 mb-3 border-l-4 border-amber-500 pl-3">1. 教學與人際引導類</h3>
+                <div class="space-y-3 text-sm md:text-base">
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・〜に寄（よ）り添（そ）う（貼近、同理並陪伴對方）</div>
+                        <p class="text-gray-800 mt-1">例句：生徒の不安に寄り添いながら、一緒に学習計画を立てるようにしています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（我會一邊同理學生的不安，一邊與他們共同制定學習計畫。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・目線（めせん）を合（あ）わせる（調整到與對方相同的視角／高度）</div>
+                        <p class="text-gray-800 mt-1">例句：専門用語は使わず、生徒の目線に合わせて分かりやすく説明することを意識しています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（我會有意識地不使用專業術語，配合學生的程度進行淺顯易懂的說明。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・手応（てごた）えを感（かん）じる（感受到確實的成效／回饋）</div>
+                        <p class="text-gray-800 mt-1">例句：授業の構成を見直した結果、生徒の反応が良くなり、大きな手応えを感じました。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（重新檢視課程架構後，學生的反應變好了，讓我感受到很大的成效。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・成果（せいか）につなげる（轉化為實際成果）</div>
+                        <p class="text-gray-800 mt-1">例句：日々の小さな努力を、テストの点数という目に見える成果につなげたいと考えています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（我希望能將每天小小的努力，轉化為考試分數這種看得見的成果。）</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. 團隊協調與意見磨合類 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-amber-700 mb-3 border-l-4 border-amber-500 pl-3">2. 團隊協調與意見磨合類</h3>
+                <div class="space-y-3 text-sm md:text-base">
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・すり合（あ）わせを行（おこな）う（進行細節核對、對齊共識——職場 B2 神級片語）</div>
+                        <p class="text-gray-800 mt-1">例句：イベント前には必ずスタッフ全員で事前のすり合わせを行い、トラブルを防いでいます。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（活動前必定會與全體工作人員進行事前細節對齊，以防範突發狀況。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・足並（あしな）みをそろえる（步調一致、統一方向）</div>
+                        <p class="text-gray-800 mt-1">例句：講師によって指導内容がぶれないよう、会議で足並みをそろえることが大切です。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（為了不讓教學內容因講師而異，在會議上統一大家的步調非常重要。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・歩（あゆ）み寄（よ）る（各退一步、互相靠近達成共識）</div>
+                        <p class="text-gray-800 mt-1">例句：意見が対立したときは、自分の主張を通すのではなく、お互いに歩み寄る姿勢を大切にしています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（意見對立時，我重視的不是硬要貫徹己見，而是雙方互相妥協、尋求共識的態度。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・フォローし合（あ）う（互相補位、彼此支援）</div>
+                        <p class="text-gray-800 mt-1">例句：繁忙期（はんぼうき）は業務が集中するため、同僚と声をかけ合ってフォローし合っています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（旺季時業務會非常集中，因此我會和同事互相打氣並彼此支援補位。）</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. 面對挫折、壓力與危機處理類 -->
+            <div class="avoid-break card-border mb-6 bg-white p-5 rounded-xl shadow-md border border-gray-100">
+                <h3 class="text-lg font-bold text-amber-700 mb-3 border-l-4 border-amber-500 pl-3">3. 面對挫折、壓力與危機處理類</h3>
+                <div class="space-y-3 text-sm md:text-base">
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・壁（かべ）にぶつかる（遇到瓶頸、撞牆期）</div>
+                        <p class="text-gray-800 mt-1">例句：指導方法で行き詰まり、壁にぶつかったときは、先輩講師の授業を見学してヒントを得ます。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（當教學方式陷入僵局、遇到瓶頸時，我會觀摩前輩講師的課堂來獲得靈感。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・試行錯誤（しこうさくご）を重（かさ）ねる（反覆嘗試與修正）</div>
+                        <p class="text-gray-800 mt-1">例句：生徒の集中力が続かないという課題に対し、ゲームの要素を取り入れるなど試行錯誤を重ねました。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（針對學生專注力無法持續的問題，我反覆嘗試了加入遊戲元素等各種方法。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・真摯（しんし）に向（む）き合（あ）う（誠懇且認真地面對）</div>
+                        <p class="text-gray-800 mt-1">例句：保護者からの厳しいご意見に対しても、逃げずに真摯に向き合うよう努めています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（即使是面對家長嚴厲的意見，我也努力不逃避，而是誠懇認真地應對。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・頭（あたま）を切（き）り替（か）える（轉換思緒、整理心情重新出發）</div>
+                        <p class="text-gray-800 mt-1">例句：仕事でミスをして落ち込んだときは、原因を反省したあと、早めに頭を切り替えるようにしています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（工作出錯感到沮喪時，我會在反省原因之後，盡快調整心態重新出發。）</p>
+                    </div>
+                    <div class="p-3 bg-amber-50/70 rounded-lg">
+                        <div class="font-bold text-gray-900">・ピンチをチャンスに変（か）える（化危機為轉機）</div>
+                        <p class="text-gray-800 mt-1">例句：クレームは信頼を失うリスクもありますが、丁寧に対応すればピンチをチャンスに変えられると考えています。</p>
+                        <p class="text-gray-600 text-xs md:text-sm">（客訴雖然有失去信任的風險，但我認為只要細心處理，就能化危機為轉機。）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-8 border-gray-300">
+
+        <!-- ==================== 四、口說升級 B2 必備連接詞與接續詞 ==================== -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 mb-2 text-center">四、口說升級 B2 必備連接詞與接續詞</h2>
+            <p class="text-center text-sm text-gray-600 mb-6">A2 程度常反覆使用「そして、でも、だから」。在口說考試中，只要把連接詞換成下列 B1～B2 詞彙，回答的邏輯層次會瞬間拉高。</p>
+
+            <div class="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
+                <table class="min-w-full bg-white text-sm">
+                    <thead class="bg-indigo-600 text-white">
+                        <tr>
+                            <th class="py-3 px-3 text-left font-bold w-24">功能分類</th>
+                            <th class="py-3 px-3 text-left font-bold w-48">日文連接詞／接續表現</th>
+                            <th class="py-3 px-3 text-center font-bold w-20">難度</th>
+                            <th class="py-3 px-3 text-left font-bold">口說使用重點與短句示範</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <!-- 開場與條列 -->
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-indigo-800 bg-indigo-50/50 align-top" rowspan="3">開場與條列</td>
+                            <td class="py-3 px-3 font-bold text-gray-900">まず（初めに）</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b1 mr-0">B1</span></td>
+                            <td class="py-3 px-3 text-gray-700">說出第一個論點：<span class="font-medium text-gray-900">まず、相手の話をよく聞くことが大切です。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">さらに／加（くわ）えて</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">疊加第二個更有力的理由：<span class="font-medium text-gray-900">さらに、保護者への連絡も欠かせません。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">何（なに）より（も）</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">強調最重要的一點：<span class="font-medium text-gray-900">何より、生徒との信頼関係が一番重要です。</span></td>
+                        </tr>
+
+                        <!-- 轉折與讓步 -->
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-indigo-800 bg-indigo-50/50 align-top" rowspan="4">轉折與讓步</td>
+                            <td class="py-3 px-3 font-bold text-gray-900">一方（いっぽう）で</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">呈現正反兩面（分析優缺點必用）：<span class="font-medium text-gray-900">やりがいがある一方で、プレッシャーも大きいです。</span></td>
+                        </tr>
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-gray-900">とはいえ</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">承認前句事實，再引出轉折（極自然）：<span class="font-medium text-gray-900">忙しいです。とはいえ、手を抜くわけにはいきません。</span></td>
+                        </tr>
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-gray-900">〜ものの</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">雖然……但是（較正式的 が）：<span class="font-medium text-gray-900">最初は苦労したものの、次第に慣れてきました。</span></td>
+                        </tr>
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-gray-900">ただ、〜という面（めん）もあります</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">委婉補充限制或另一面，展現客觀思考：<span class="font-medium text-gray-900">ただ、時間が限られているという面もあります。</span></td>
+                        </tr>
+
+                        <!-- 因果與推論 -->
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-indigo-800 bg-indigo-50/50 align-top" rowspan="4">因果與推論</td>
+                            <td class="py-3 px-3 font-bold text-gray-900">そのため</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b1-b2 mr-0">B1-B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">取代 だから，讓口氣更專業：<span class="font-medium text-gray-900">そのため、事前の準備を徹底しています。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">その結果（けっか）</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b1-b2 mr-0">B1-B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">講完行動後，帶出具體成果（STAR 原則必備）：<span class="font-medium text-gray-900">その結果、生徒の点数が上がりました。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">〜をきっかけに</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">說明轉捩點（面對困難題好用）：<span class="font-medium text-gray-900">その失敗をきっかけに、確認体制を見直しました。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">〜を踏（ふ）まえて</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">基於……考量：<span class="font-medium text-gray-900">前回の反省を踏まえて、新しい教材を作りました。</span></td>
+                        </tr>
+
+                        <!-- 舉例與闡述 -->
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-indigo-800 bg-indigo-50/50 align-top" rowspan="3">舉例與闡述</td>
+                            <td class="py-3 px-3 font-bold text-gray-900">具体的（ぐたいてき）には</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">講完抽象原則後，立刻舉例拉高分數：<span class="font-medium text-gray-900">具体的には、毎回の授業後に小テストを行っています。</span></td>
+                        </tr>
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-gray-900">言（い）い換（か）えると</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">用另一種說法解釋，避免卡詞：<span class="font-medium text-gray-900">言い換えると、チーム全体の協力が必要だということです。</span></td>
+                        </tr>
+                        <tr class="avoid-break bg-gray-50/40">
+                            <td class="py-3 px-3 font-bold text-gray-900">例えば〜といった点（てん）です</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">精準列舉細節：<span class="font-medium text-gray-900">例えば、連絡のスピードといった点です。</span></td>
+                        </tr>
+
+                        <!-- 總結與收尾 -->
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-indigo-800 bg-indigo-50/50 align-top" rowspan="3">總結與收尾</td>
+                            <td class="py-3 px-3 font-bold text-gray-900">このように</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">承接前面的例子做結論：<span class="font-medium text-gray-900">このように、こまめな対話を心がけています。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">つまり</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b1-b2 mr-0">B1-B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">用一句話濃縮核心觀點：<span class="font-medium text-gray-900">つまり、事前のすり合わせが一番のカギになります。</span></td>
+                        </tr>
+                        <tr class="avoid-break">
+                            <td class="py-3 px-3 font-bold text-gray-900">以上（いじょう）のことから</td>
+                            <td class="py-3 px-3 text-center"><span class="level-badge badge-b2 mr-0">B2</span></td>
+                            <td class="py-3 px-3 text-gray-700">正式收尾（長題型或意見申論適用）：<span class="font-medium text-gray-900">以上のことから、柔軟な対応力が必要だと考えています。</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ==================== 口說實戰萬用套路 ==================== -->
+        <section class="avoid-break">
+            <div class="bg-gradient-to-r from-indigo-50 to-amber-50 p-6 rounded-xl border-2 border-indigo-200 shadow-sm">
+                <h2 class="text-xl font-bold text-indigo-800 mb-2 flex items-center gap-2">
+                    <span class="bg-amber-500 text-white text-xs px-2.5 py-1 rounded-full">萬用公式</span>
+                    口說實戰萬用套路（考前速記作答公式）
+                </h2>
+                <p class="text-sm text-gray-700 mb-4">
+                    遇到「團隊協調」或「負面困難」的考題時，利用上面的連接詞套進以下 4 步驟結構，即使緊張也能穩定講出 B2 份量：
+                </p>
+                <div class="space-y-3">
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span class="font-bold text-indigo-700 sm:w-44 shrink-0">1. 結論先說：</span>
+                        <span class="text-gray-900 font-medium">私は〜を最も大切にしています。／〜という経験があります。</span>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span class="font-bold text-indigo-700 sm:w-44 shrink-0">2. 具體背景或困難：</span>
+                        <span class="text-gray-900 font-medium">具体的には、〜という課題に直面しました。最初は〜したものの、〜でした。</span>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span class="font-bold text-indigo-700 sm:w-44 shrink-0">3. 採取的行動：</span>
+                        <span class="text-gray-900 font-medium">そのため、同僚とすり合わせを行い、〜を徹底しました。さらに、〜も工夫しました。</span>
+                    </div>
+                    <div class="bg-white p-3.5 rounded-lg border border-indigo-100 flex flex-col sm:flex-row sm:items-center gap-2">
+                        <span class="font-bold text-indigo-700 sm:w-44 shrink-0">4. 成果與收穫：</span>
+                        <span class="text-gray-900 font-medium">その結果、〜という成果につながりました。この経験を踏まえて、今も〜を心がけています。</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
